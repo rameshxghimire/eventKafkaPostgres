@@ -41,7 +41,10 @@ main() function wraps the bandwidth_exceed_event_system() which is executed when
 This file instantiates Kafka Consumer object and connects to Aiven Kafka instance.
 It consumes the message and records them in Aiven PostgreSQL database.
 After the message is recorded, the database connection is closed.
-----------------------
+
+
+
+
 **Additional files:**
 
 \__init__.py
