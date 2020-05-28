@@ -1,6 +1,6 @@
-eventKafkaPostgres
+# Bandwith Monitor and Logger System with Kafka and PostgreSQL in the Aiven Cloud
 
-A system that generates some events and passes the events through Aiven Kafka instance to Aiven PostgreSQL database. 
+## A system that generates bandwidth exceed logs as local events and passes the events through Aiven Kafka instance to Aiven PostgreSQL database. 
 
 This includes:
 1. Kafka producer which sends data to a Kafka topic,
